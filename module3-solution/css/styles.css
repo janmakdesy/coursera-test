@@ -1,0 +1,100 @@
+body{
+  padding: 30px;
+}
+
+
+
+#header-nav{
+  background-color: #d1cfc9;
+  border-radius: 0;
+  border:0;
+margin: -30px;
+}
+
+
+
+.navbar-brand h1{
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #e3dac1;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+
+#nav-list {
+  margin-top: -5px;
+  background-color: #dbd9d3;
+  text-align: center;
+margin-bottom: -5px;
+overflow: visible;
+}
+
+#nav-list  span{
+  font-size: 1.5em;
+
+color:#000;
+  text-align: center;
+}
+
+
+
+  
+
+#nav-list span:hover{
+background-color: #e7e7e7;
+
+}
+
+.navbar-header button.navbar-toggle{
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+body{
+font-family: "Oxygen" sans-serif;
+
+}
+
+.container h2  { 
+
+margin-top: 60px;
+margin-bottom: 30px;
+
+}
+
+.food {
+  border: 1px solid black;
+ padding: 10px;
+ height: 900px;
+background-color: #CCD7C2;
+margin-bottom: 30px;
+
+ }
+ .food h3{ 
+  width: 100%;
+  text-align: center;
+font-size: 2em;
+ }
+
+.food p {
+  font-size: 1.3em;
+  font: italic;
+
+}
+#nav-list li{
+ height: 25px;
+  margin: 10px;
+}
+  
+
+
+   
