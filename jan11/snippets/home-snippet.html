@@ -1,0 +1,22 @@
+    <div class="jumbotron">
+      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+    </div>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="#" onclick="$dc.loadMenuCategories();"><div id="menu-tile"><span>menu</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="#" onclick="$dc.loadMenuItems({{randomCategoryShortName}});">
+          <div id="specials-tile"><span>specials</span></div>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://maps.app.goo.gl/Lvp7MrN67bLSEVSL6" target="_blank">
+          <div id="map-tile">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7918.488477637717!2d24.999763333068856!3d60.25316875502725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469208642ecb19b9%3A0x5ad15a83f3e48492!2sMalmin%20raitti%2012%2C%2000700%20Helsinki!5e0!3m2!1sfi!2sfi!4v1712591898582!5m2!1sfi!2sfi" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <span>map</span>
+          </div>
+        </a>
+      </div>
+    </div><!-- End of #home-tiles -->
